@@ -32,10 +32,6 @@ public class ValidParentheses {
     //输入定义 ====================================
     static ValidParentheses self = new ValidParentheses();
 
-//    static String s = "()";
-    static String s = "()[]{}";
-//    static String s = "(]";
-
     //启动入口
     public static void main(String[] args) {
         out(self.new StackSolution(),"压栈法求解");
@@ -43,6 +39,11 @@ public class ValidParentheses {
 
     //输出结果
     public static void out(Solution solution, String solutionName){
+
+        //String s = "()";
+        String s = "()[]{}";
+        //String s = "(]";
+
         System.out.println(solutionName + "：" + solution.isValid(s));
     }
 
