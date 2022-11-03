@@ -26,8 +26,6 @@ public class AddTwoNumbers {
 
     //输入定义 ====================================
     static AddTwoNumbers self = new AddTwoNumbers();
-    static ListNode l1 = buildChain(new int[]{2,4,3});
-    static ListNode l2 = buildChain(new int[]{5,6,4});
 
     public static ListNode buildChain(int[] nums){
         int i = 0;
@@ -48,6 +46,10 @@ public class AddTwoNumbers {
     }
 
     public static void out(Solution solution, String solutionName){
+
+        ListNode l1 = buildChain(new int[]{2,4,3});
+
+        ListNode l2 = buildChain(new int[]{5,6,4});
 
         ListNode result = solution.addTwoNumbers(l1,l2);
 
