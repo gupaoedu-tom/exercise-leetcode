@@ -1,4 +1,4 @@
-# gupaoedu-exercise-leetcode
+# exercise-leetcode
 LeetCode刷题代码
 
 关注公众号：Tom弹架构
